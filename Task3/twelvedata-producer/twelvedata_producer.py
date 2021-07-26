@@ -20,6 +20,7 @@ td = TDClient(apikey=API_KEY)
 
 #Change the symbol of the ticker here
 ts = td.time_series(
+    exchange ="NYSE",
     symbol= TICKER,
     interval= INTERVAL,
     timezone="America/New_York",
