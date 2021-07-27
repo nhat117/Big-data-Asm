@@ -9,4 +9,5 @@ RUN chmod +x /opt/scripts/*
 ENTRYPOINT [ "/opt/scripts/bootstrap.sh" ]
 
 # Run DSE in search mode in the foreground by default
-CMD [ "dse", "cassandra", "-s", "-g", "-f" ]
+CMD [ "dse", "cassandra", "-s", "-g", "-f"]
+#Rum command 
