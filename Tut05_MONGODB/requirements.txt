@@ -5,3 +5,4 @@ tqdm
 jupyterlab
 dnspython
 spacy_dbpedia_spotlight
+pandas
